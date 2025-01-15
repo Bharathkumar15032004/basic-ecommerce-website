@@ -1,0 +1,237 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    font-family:'poppins','sans-serif';
+    
+}
+
+.nav-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color:maroon;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}    
+    .navbar-links
+{
+    display: flex;
+    column-gap: 80px;    
+}
+
+.navbar-link a
+{
+    text-decoration: none;
+    color:black;
+}
+.navbar-link a:hover
+{
+    text-decoration: underline;
+    color:maroon;
+}
+
+/*TOGGLE STYLING*/
+.toggle-icon
+{
+    display: none;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width:600px) 
+{
+    .toggle-icon
+    {
+        display: block;
+    }
+    .navbar-links
+    {
+        display: none;
+    }
+    
+}
+
+/*SIDE NAVBAR*/
+
+.side-nav-bar
+{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: -60%;
+    top: 0;
+    padding: 10px;
+    border-top-right-radius:30px ;
+    transition: 1s;
+}
+.side-navbar-link
+{
+    margin-top: 25px;
+}
+.side-nav-bar-xsymbol
+{
+    text-align: right;
+    color: whitesmoke;
+}
+.side-nav-bar-xsymbol:hover{
+    color: red;
+}
+.side-navbar-link a{
+    color:white;
+    text-decoration: none;
+}
+.side-navbar-link a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+
+/*HEADER*/
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 25px;
+}
+.header-button
+{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    color: white;
+}
+
+@media  screen and (max-width:600px) {
+    .header{
+        display: block;
+    }
+    
+    
+}
+.img
+{
+    width: 80%;
+    height: 50%;
+}
+
+/*NEW ARRIVAL*/
+.newarrival
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 25%;
+
+}
+.newarrival-container
+{
+    position: relative;
+    flex-basis: 25%;
+    padding: px;
+}
+.newarrival button
+{
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+.newarrival button:hover
+{
+    background-color: yellow;
+}
+
+/*SERVICES*/
+.services
+{
+    display: flex;
+    gap: 10px;
+}
+.service-container1
+{
+    width: 35%;
+    background-color:gray;
+    padding: 10px;
+    border-radius: 10px;
+    
+}.service-container2
+{
+    width: 35%;
+    background-color:gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.service-container3
+{
+    width: 35%;
+    background-color:gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer
+{
+    background-color: black;
+    margin-top: 20px;
+}
+.footer-name
+{
+    color: white;
+    margin-left: 100px;
+    padding: 20px;
+}
+.footer-icons a
+{
+    color: white;
+    margin-left: 100px;
+}
+
+/*collections*/
+
+.product-section
+{
+    margin-top: 30px;
+    padding: 50px;
+}
+.product-search input
+{
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.product-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.product-box
+{
+    flex-basis: 20%;
+    text-align: center;
+}
+

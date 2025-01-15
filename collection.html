@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHION AURA</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS LINKING-->
+    <link rel="stylesheet" href="styel.css">
+
+    <!--ICONS FROM FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--NAV-BAR-->
+    <nav class="nav-bar">
+        <h1>FASHION AURA</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">HOME</a></p>
+            <p class="navbar-link"><a href="collection.html">COLLECTIONS</a></p>
+            <p class="navbar-link"><a href="conduct.html">CONDUCT</a></p>   
+        </div>
+
+        <!--TOGGLE ICON-->
+        <div class="toggle-icon" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--SIDE NAV-BAR-->
+    <div class="side-nav-bar">
+        <p class="side-nav-bar-xsymbol" onclick="cancel()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">HOME</a></p>
+            <p class="side-navbar-link"><a href="collection.html">COLLECTIONS</a></p>
+            <p class="side-navbar-link"><a href="conduct.html">CONDUCT</a></p>   
+        </div>
+    </div>
+
+    <!--COLLECTIONS-->
+    <div class="porduct-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="TYPE YOUR PRODUCT">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="product">
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxNPpOR19z-FXsjXczCw3vJfbvik0KvKd0Q&s" alt="">
+                <p>White shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEvmLYoH5-iTW3YE5Fk5WzR3gaNuKFuguiwA&s" alt="">
+                <p>Black shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYI5FKkwPpMAjpU5F2sfPUioIdyHMH98sRvg&s" alt="">
+                <p>Blue shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAOjDF58z1uBwN4jc5XyIG1KoZn3EgCMAZZA&s" alt="">
+                <p>Red shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsP5Bm6iOjU12c-HyVcIPbn8AeBf8w4xbc9A&s" alt="">
+                <p>Jeans pant</p>
+            </div>
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQssYeY3gQiNaalBbelnVmFr-UyX2xrPghCGA&s" alt="">
+                <p>Green hoodie</p>
+            </div>
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd3wselxyp4fd5bxlqxv2pQ0xjo3BoutTcSg&s" alt="">
+                <p>Maroon hoodie</p>
+            </div>
+            <div class="product-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3PtSzIBpJlugHSFA0QioK-k7QX8RcNHGog&s" alt="">
+                <p>Black cap</p>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="footer-name">
+            <h2>FASHION AURA</h2>
+            <p>SINCE 2004 grab all peoples attention and makes their fashionable</p>
+        </div>
+        <div class="footer-icons">
+            <a href="8637664502"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram" ></i></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</body>
+<!--LINKING JAVASCRIPT IN MY HTML-->
+<script src="collection.js"></script>
+<script src="index.js"></script>
+
+</html>

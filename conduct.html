@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHION AURA</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS LINKING-->
+    <link rel="stylesheet" href="styel.css">
+
+    <!--ICONS FROM FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--NAV-BAR-->
+    <nav class="nav-bar">
+        <h1>FASHION AURA</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">HOME</a></p>
+            <p class="navbar-link"><a href="collection.html">COLLECTIONS</a></p>
+            <p class="navbar-link"><a href="conduct.html">CONDUCT</a></p>   
+        </div>
+
+        <!--TOGGLE ICON-->
+        <div class="toggle-icon" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--SIDE NAV-BAR-->
+    <div class="side-nav-bar">
+        <p class="side-nav-bar-xsymbol" onclick="cancel()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">HOME</a></p>
+            <p class="side-navbar-link"><a href="collection.html">COLLECTIONS</a></p>
+            <p class="side-navbar-link"><a href="conduct.html">CONDUCT</a></p>   
+        </div>
+    </div>
+    
+   <!--CONDUCT PAGE-->
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        
+
+        
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 15px;
+                padding: 15px;
+            }
+        }
+    </style>
+
+    <div class="container">
+        <h2>IF ANY PROBLEM HAPPENS MEANS PLEASE CONDUCT US!</h2>
+        <form action="/submit-contact" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Our Contact Information</h3>
+            <p><strong>Email:</strong> bkr@fashionaura.com</p>
+            <p><strong>Phone:</strong> 9087845839</p>
+            <p><strong>Address:</strong> church street,walajapet,chennai-0000028</p>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+
+   
+
+    <!--FOOTER-->
+
+    <div class="footer">
+        <div class="footer-name">
+            <h2>FASHION AURA</h2>
+            <p>SINCE 2004 grab all peoples attention and makes their fashionable</p>
+        </div>
+        <div class="footer-icons">
+            <a href="8637664502"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram" ></i></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</body>
+
+<!--LINKING JAVASCRIPT IN MY HTML-->
+<script src="index.js"></script>
+
+</html>
